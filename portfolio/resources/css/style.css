@@ -1,0 +1,70 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+
+header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-brand {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 30px;
+    font-size: 23px;
+}
+
+/* main {
+    margin-top: 120px;
+}
+
+.intro {
+    background-image: url("https://picsum.photos/");
+    background-size: contain;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-attachment: fixed;
+    padding: 10px 50px;
+    margin-left: 50px;
+}
+
+.intro img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    left: 800px;
+    display: block;
+    float: right;
+    margin-top: auto;
+}
+
+section {
+    display: block;
+}
+
+#about p {
+    font-size: 20px;
+    display: inline;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+ */
+

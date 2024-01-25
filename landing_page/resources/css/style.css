@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+
+/* header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+} */
+
+.navbar-brand {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 30px;
+    font-size: 23px;
+}
