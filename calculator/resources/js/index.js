@@ -83,3 +83,9 @@ const calculate = () => {
 const updateScreen = () => {
     screen.value = prevValue + operator + currValue;
 }
+
+// const changeTheme = () => {
+//     console.log('Changed')
+//     const containerTheme = document.querySelector('.calculator-container');
+//     containerTheme.classList.toggle('dark-theme');
+// }

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Calculator</title>
+    <link rel="stylesheet" href="resources/css/style.css">
     <script src="resources/js/index.js" defer></script>
 </head>
-<body>
+<body class="dark-theme">
   <div class="calculator-container">
-    <h1>Calculator</h1>
-    <h2>Please use this for basic calculation</h2>
+    <!-- <button onclick="changeTheme()">Toggle</button> -->
     <input type="text" id="display-screen" readonly>
     <div class="calculator-buttons">
       <button class="btn" onclick="clearScreen()">CLR</button>
@@ -30,11 +30,12 @@
       <button class="btn" onclick="insertValue('2')">2</button>
       <button class="btn" onclick="insertValue('3')">3</button>
 
-      <button class="btn" onclick="insertOperator('+')">+</button>
+      <button class="btn" id="addition-btn" onclick="insertOperator('+')">+</button>
       <button class="btn" onclick="insertValue('0')">0</button>
       <button class="btn" onclick="insertFloat('.')">.</button>
       <button class="btn" onclick="calculate()">=</button>
-
+      <button class="btn"></button>
+ 
     </div>
   </div>
 </body>
