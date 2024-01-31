@@ -1,16 +1,16 @@
 const projectsData = [
     {
-        imageSrc: '../resources/images/pharaohz.png',
+        imageSrc: 'resources/images/project.png',
         title: 'Pharaohz Cart',
         projectLink: 'http://pharaohz.net/',
         githubLink: 'https://github.com/edomanuli/pharaohz-cart'
     },
 
     {
-        imageSrc: '',
-        title: '',
-        projectLink: '',
-        githubLink: ''
+        imageSrc: 'resources/images/basic-calc.png',
+        title: 'Basic Calculator',
+        projectLink: 'https://edomanuli.github.io/basic-calc/',
+        githubLink: 'https://github.com/edomanuli/basic-calc'
     },
 
     {
@@ -21,6 +21,7 @@ const projectsData = [
     },
 
 ]
+
 
 const projects = () => {
     const projectContent = document.querySelector('.projects');
@@ -34,8 +35,9 @@ const projects = () => {
         // Create the image element
         const image = document.createElement('img');
         image.src = project.imageSrc;
-        image.classList.add('card-img-top', 'projects-img');
+        image.classList.add('card-img-top', 'projects-img', 'object-fit-contain');
         image.alt = 'Project Image';
+        image.style.height = '100%';
 
         // Create the card body element
         const cardBody = document.createElement('div');
@@ -49,14 +51,16 @@ const projects = () => {
         // Create the site link element
         const siteLink = document.createElement('a');
         siteLink.href = project.projectLink;
-        siteLink.classList.add('btn', 'btn-primary', 'site-link');
+        siteLink.classList.add('btn', 'btn-dark', 'site-link', 'mx-3');
         siteLink.textContent = 'Visit Site';
+        siteLink.target = '_blank';
 
         // Create the GitHub link element
         const gitLink = document.createElement('a');
         gitLink.href = project.githubLink;
-        gitLink.classList.add('btn', 'btn-primary', 'github');
+        gitLink.classList.add('btn', 'btn-dark', 'github', 'mx-3');
         gitLink.textContent = 'GitHub';
+        gitLink.target = '_blank';
 
         // Append elements to the card body
         cardBody.appendChild(title);
@@ -72,4 +76,4 @@ const projects = () => {
     });
 }
 
-projects();
+document.addEventListener('DOMContentLoaded', projects);
