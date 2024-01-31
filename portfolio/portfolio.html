@@ -29,17 +29,20 @@
     <script src="resources/js/index.js" defer></script>
 </head>
 <body>
-  <div class="container border border-black all-elements">
-    <nav class="container navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid all-elements">
+    <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid p-3">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#"><i class="bi bi-globe-europe-africa"></i></a>
         <div class="justify-content-end collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="d-flex navbar-nav me-2 mb-2 mb-lg-0">
+          <ul class="d-flex navbar-nav me-2 mb-2 mb-lg-0 fs-2 fw-semibold justify-content-between">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+              <a class="nav-link" aria-current="page" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#foot-contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects-portfolio">Projects</a>
@@ -56,35 +59,22 @@
       </div>
     </nav>
 
-    <div class="container text-center mt-5">
+    <div class="container text-center mt-5 section1">
       <div class="row">
-        <div class="col section1">
-          <img src="resources/images/Anuli.jpg" class="w-25" alt="Anuli's image" />
-          <h2>Anuli Edom</h2>
-          <h3>Full-Stack Developer</h3>
+        <div class="col-12 col-md-6 section1">
+          <img src="resources/images/Anuli.jpg" class="rounded-end-circle img-thumbnail" alt="Anuli's image" />
+          <h1 class="mt-3">Anuli Edom</h1>
+          <p class="fs-2">Full-Stack Developer</p>
           <a
             href="mailto:edomanuli@gmail.com"
             target="_blank"
-            class="btn email-icon"
-          >Contact Me 📧</a>
-
-          <div class="contact">
-            <a href="https://github.com/edomanuli" target="_blank" rel="noopener noreferrer" class="btn contact-icon" aria-label="GitHub">
-              <i class="devicon-github-original-wordmark colored"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/anuli-edom/" target="_blank" rel="noopener noreferrer" class="btn contact-icon" aria-label="LinkedIn">
-              <i class="devicon-linkedin-plain colored"></i>
-            </a>
-            <a href="https://www.facebook.com/anuli.edomosizugbo/" target="_blank" rel="noopener noreferrer" class="btn contact-icon" aria-label="Facebook">
-              <i class="devicon-facebook-plain colored"></i>
-            </a>
-          </div>
-          
+            class="btn btn-dark email-icon"
+          >Contact Me 📧</a> 
         </div>
 
-        <div class="col section2">
+        <div class="col-12 col-md-6 section2 lh-base mt-5 pt-5">
           <h2 class="about-head">About Me</h2>
-          <p class="text-wrap" id="introduction">
+          <p class="text-wrap text-center" id="introduction">
             I am a passionate Software Engineer driven by the desire 
             to tackle real-life problems and challenges, one line of code at a time. 
             I find joy in witnessing my creations come together to form robust 
@@ -99,7 +89,7 @@
       </div>
     </div>
 
-    <div class="container text-center section3">
+    <div class="container text-center section3" id="skills">
       <div class="row row-cols-5 pt-5">
         <div class="col icons"><i class="devicon-html5-plain-wordmark"></i></div>
         <div class="col icons"><i class="devicon-css3-plain-wordmark"></i></div>
@@ -122,11 +112,14 @@
     </div>
 
     <div class="card text-center mt-5 border border-0">
-      <div class="card-header">
+      <div class="card-header fw-semibold fs-3">
         Let's Connect
       </div>
       <div class="card-body">
-        <div class="contact">
+        <div class="contact" id="foot-contact">
+          <a href="mailto:edomanuli@gmail.com" target="_blank" rel="noopener noreferrer" class="btn contact-icon" aria-label="Facebook">
+            📧
+          </a>
           <a href="https://github.com/edomanuli" target="_blank" rel="noopener noreferrer" class="btn contact-icon" aria-label="GitHub">
             <i class="devicon-github-original-wordmark colored"></i>
           </a>
