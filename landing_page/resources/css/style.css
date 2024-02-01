@@ -18,16 +18,28 @@
 }
 
 i {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 input.email-holder {
     background-color: whitesmoke;
+    padding: 5px;
 }
 
 input.submit-holder {
     background-color: #305c5c;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.featured a.btn {
+    padding: 10px 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+
+    i {
+        font-size: 15px;
+    }
+}
