@@ -6,17 +6,6 @@
     color-scheme: dark;
 }
 
-
-/* header {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-} */
-
 .navbar-brand {
     width: 150px;
     height: 150px;
@@ -26,4 +15,22 @@
 .navbar-nav .nav-item {
     padding-right: 30px;
     font-size: 23px;
+}
+
+i {
+    font-size: 35px;
+}
+
+input.email-holder {
+    background-color: whitesmoke;
+}
+
+input.submit-holder {
+    background-color: #305c5c;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.recipes a {
+    
 }

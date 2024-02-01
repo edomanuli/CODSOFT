@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organic Diabetic</title>
-    <link rel="stylesheet" href="resources/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organic Diabetic</title>
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+	>
 	<link 
 		href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
 		rel="stylesheet" 
@@ -18,105 +22,173 @@
 	</script>
 </head>
 <body>
-    <div class="container-fluid">
-        <header>
-            <nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<a class="navbar-brand">
-						<img class="navbar-brand" src="resources/images/Landing Page Logo.png" alt="Logo">
-					</a>
-					
-					<button 
-							class="navbar-toggler" 
-							type="button" 
-							data-bs-toggle="collapse" 
-							data-bs-target="#navbarNav" 
-							aria-controls="navbarNav" 
-							aria-expanded="false" 
-							aria-label="Toggle navigation"
-					>
-							<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-							<ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
-								<li class="nav-item">
-									<a class="nav-link" href="#">HOME</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">ABOUT</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">SHOP</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">BLOG</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">RECIPES</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">CONTACT</a>
-								</li>
-							</ul>
-					</div>
-				</div>
-            </nav>
-        </header>
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img class="navbar-brand" src="resources/images/Landing Page Logo.png" alt="Logo">
+          </a>
+        
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SHOP</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CATEGORIES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Organic Fruits and Vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Organic Whole Grains</a></li>
+                <li><a class="dropdown-item" href="#">Organic Lean Proteins</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RECIPES</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      </nav>
+    </header>
 
-        <main>
-            <section>
-                <div>
-                    <img src="" alt="brand image">
-                </div>
-            </section>
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h1>ORGANIC DIABETIC</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nulla maximus tristique turpis. Vestibulum ante ipsum primis 
-                                in faucibus orci luctus et ultrices posuere cubilia curae; 
-                                Quisque consectetur ligula imperdiet magna hendrerit feugiat. 
-                                Aenean efficitur lectus lacus. Vestibulum accumsan accumsan 
-                                libero. Integer blandit ac orci et euismod. Etiam efficitur, 
-                                lorem vel aliquam cursus, metus leo ornare sem, 
-                                in rhoncus quam elit eu sapien.
-                            </p>
-                            <button>SHOP NOW</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>Join Our Community!</h3>
-                        <p>Subscribe to our newsletter for the latest updates, 
-                            insights, and exclusive content and recipes from Organic Diabetic. 
-                        </p>
-                        <form action="">
-                            <input type="email" placeholder="Enter your email address">
-                            <input type="submit" value="Subscribe Now">
-                        </form>
-                        <ul>
-                            <li><a href="">FACEBOOK</a></li>
-                            <li><a href="">INSTAGRAM</a></li>
-                            <li><a href="">TWITTER</a></li>
-                            <li><a href="">PINTEREST</a></li>
-                        </ul>
-                    </div>
-                </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p>© 2024 Brand All Rights Reserved.</p>
-                    </div>
-                </div>
+    
+    <main class="container">
+      <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="resources/images/fruits-crepes-breakfast.jpg" class="img-fluid rounded-start" alt="breakfast image" style="width: 100%;">
+          </div>
+          <div class="col-md-8 mt-3 pt-2">
+            <div class="card-body text-center">
+              <h1 class="card-title">ORGANIC DIABETIC</h1>
+              <p class="card-text">Welcome to Organic Diabetic, a haven created out of a personal journey 
+                towards a healthier lifestyle following a type-2 diabetes diagnosis. 
+                Here, we transform challenges into opportunities to thrive. 
+                Founded by a dedicated mom on a mission to revitalize her health, 
+                our platform is more than just a website—it's a community dedicated to inspiring 
+                and facilitating a wholesome, organic lifestyle for individuals navigating the complexities of diabetes. 
+                Dive into our curated selection of organic products and discover diabetic-friendly recipes 
+                that don't just nourish the body but also delight the taste buds. Join us at Organic Diabetic, 
+                where every choice is a step towards a healthier, happier life.
+              </p>
+              <button class="mt-4 p-2 btn btn-success px-3 badge rounded-pill">SHOP NOW</button>
             </div>
-        </footer>
-    </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center m-5 recipes">
+        <h2 class="text-center mb-5 p-3">Featured Recipes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="resources/images/salad-fruit-berry.jpg" class="img-fluid img-thumbnail card-img-top" alt="Salad recipes">
+              <div class="card-body">
+                <h5 class="card-title">Organic Salads</h5>
+                <p class="card-text">Organic salad recipes blend the natural flavors of fresh, 
+                  chemical-free ingredients into healthy, eco-friendly meals. 
+                  They feature a mix of organic greens, fruits, and vegetables, 
+                  dressed in a range of homemade vinaigrettes and creams. 
+                  These salads are a delicious testament to a sustainable and nutritious lifestyle.
+                </p>
+                <a href="" class="btn btn-success px-3 badge rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="resources/images/smoothie.jpg" class="img-fluid img-thumbnail card-img-top" alt="Smoothies">
+              <div class="card-body">
+                <h5 class="card-title">Organic Smoothies</h5>
+                <p class="card-text">Organic smoothie recipes merge the richness of fresh, 
+                  pesticide-free fruits and vegetables into nourishing, eco-conscious drinks. 
+                  They combine a variety of organic produce, from berries to leafy greens, 
+                  blended smoothly. 
+                  They offer a refreshing and wholesome approach to 
+                  daily nutrition and environmental responsibility.
+                </p>
+                <a href="" class="btn btn-success px-3 badge rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="resources/images/granola-grain.jpg" class="img-fluid img-thumbnail card-img-top" alt="Grain bowls">
+              <div class="card-body">
+                <h5 class="card-title">Grain Bowls</h5>
+                <p class="card-text">Grain bowl recipes mix wholesome grains with a medley of 
+                  nutrient-rich toppings for a balanced, satisfying meal. 
+                  They fuse together ingredients like quinoa, brown rice, or farro with fresh vegetables, 
+                  lean proteins, and flavorful dressings. These bowls are a versatile and hearty choice 
+                  for those seeking both taste and health benefits in their diet.
+                </p>
+                <a href="" class="btn btn-success px-3 badge rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </main>
+    <footer>
+      
+      <div class="text-center border-top h-100">
+        <div class="row row-cols-3">
+          <div class="col border-end">
+            <h4 class="m-3">Sign Up!</h4>
+            <p>Subscribe to our newsletter for the latest updates. 
+            </p>
+            <form action="">
+              <input class="email-holder" type="email" placeholder="Enter your email address">
+              <input class="submit-holder" type="submit" value="Subscribe Now">
+            </form>
+          </div>
+          <div class="col border-end text-center justify-content-evenly">
+            <h4 class="m-3">Let's Connect</h4>
+            <div class="row row-cols-4 mt-5">
+              <i class="bi bi-facebook col"></i>
+              <i class="bi bi-instagram col"></i>
+              <i class="bi bi-twitter-x col"></i>
+              <i class="bi bi-pinterest col"></i>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="m-3">Learn More</h4>
+            <div class="navbar-nav m-3">
+              <a href="" class="nav-link">Contact</a>
+              <a href="" class="nav-link">About</a>
+              <a href="" class="nav-link">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container text-center">
+        <p>©️ 2024 Organic Diabetic</p>
+      </div>
+      
+    </footer>
+  </div>
 </body>
 </html>
